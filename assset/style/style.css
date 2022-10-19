@@ -579,7 +579,7 @@ fieldset{
 }
 @keyframes search {
     0%{
-        transform: translateY(-20%);
+        transform: translateY(-2`0%);
     }
     
 }
@@ -674,7 +674,7 @@ margin: 40px 0;
 }
 .narration{
     letter-spacing: -0.3px;
-    font-size: 22px;
+    font-size: 17px;
     margin: 0;
     padding: 0;
     color: #6a4feb;
