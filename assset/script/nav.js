@@ -13,9 +13,11 @@ let isActive = false
             isActive = true;
             console.log(isActive)
             showNow.classList.replace("hide", "show")
+            solid.classList.replace(".fa-bars","fa-xmark")
         } else {
             isActive = false
             showNow.classList.replace("show", "hide")
+            solid.classList.replace("fa-xmark","fa-bars")
         }
     }
     hiHamburger.addEventListener("click", showNav)

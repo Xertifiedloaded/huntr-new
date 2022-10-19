@@ -220,7 +220,9 @@ main {
     row-gap: 30px;
 
 }
-
+fieldset{
+    display: none;
+}
 .cards>.card {
     width: 30%;
     height: 300px;
@@ -571,7 +573,17 @@ main {
     display: flex;
     justify-content: center;
 }
-.row-1,.row-2{
+.row-1{
+    width: 100%;
+    animation: search 5s ease-in-out ;
+}
+@keyframes search {
+    0%{
+        transform: translateY(-20%);
+    }
+    
+}
+.row-2{
     width: 100%;
 }
 .headline{
@@ -744,4 +756,22 @@ margin: 40px 0;
 .open{
     display: block;
 }
+fieldset{
+    display: block;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+fieldset>legend{
+    color: #6a4feb;
+    text-transform: capitalize;
+    padding: 0 20px;
+}
+
+
+
+
+
+
 }
