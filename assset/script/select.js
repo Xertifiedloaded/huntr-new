@@ -1,0 +1,1 @@
+let mobileList = document.querySelectorAll(".mobile-list")
