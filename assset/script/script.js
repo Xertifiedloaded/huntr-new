@@ -8,8 +8,6 @@ let i = 0
 
 length = imageSlider.length
 function slide() {
-
-
     if (i > length - 1) {
         i = 0
         let list = ul[i]
