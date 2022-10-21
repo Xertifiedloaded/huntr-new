@@ -28,10 +28,12 @@ for (i = 0; i < toggleLinkArr.length; i++) {
         if (isOnline == false) {
             isOnline = true
             toggleMenu.classList.remove("close")
-            
+            arrowDown.classList.replace("fa-chevron-down", "fa-chevron-up")
+
         } else {
             isOnline = false
             toggleMenu.classList.add("close")
+            arrowDown.classList.replace("fa-chevron-up", "fa-chevron-down")
         }
     }
 }

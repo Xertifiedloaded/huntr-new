@@ -78,6 +78,7 @@ body {
 
 .drop {
     width: 100%;
+    padding: 0 15px;
 }
 
 ul {
@@ -157,6 +158,7 @@ main {
 
 .row-2 {
     width: 60%;
+    padding: 0 50px;
 }
 
 .row-2 .hero-container {
